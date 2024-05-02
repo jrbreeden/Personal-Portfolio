@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joanna Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" 
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+  <header>
+    <nav id="navbar">
+        <ul class="nav-links">
+            <li><a href="#welcome-section" class="nav-link">Welcome</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+  </header>
+  <section id="welcome-section">
+    <h1>Hello, I'm Joanna.</h1>
+    <p>A software developer, web developer, and data analyst</p>
+  </section>
+  <section id="projects">
+    <h1>These are some of my projects</h1>
+    <div class="projects">
+    <a href="https://jrbreeden.github.io/Do-Not-get-the-Cheese/" class="project-tile image fit">
+        <img src="./Do Not Get the Cheese.png" alt="">
+        <p><span>&lt;</span>Do Not Get the Cheese<span>/&gt;</span></p>
+    </a>
+    <a href="https://github.com/jrbreeden/Paint-Your-Dreams" class="project-tile image fit">
+        <img src="./Paint Your Dreams 1.png" alt="">
+        <p><span>&lt;</span>Paint Your Dreams<span>/&gt;</span></p>
+    </a>
+    <a href="https://github.com/jrbreeden/GA_Project_3" class="project-tile image fit">
+        <img src="./Align.png" alt="">
+        <p><span>&lt;</span>Align<span>/&gt;</span></p>
+    </a>
+    <a href="https://github.com/jrbreeden/Horse-Collector/" class="project-tile image fit">
+        <img src="./Horse Collector 1.png" alt="">
+        <p><span>&lt;</span>Horse Collector<span>/&gt;</span></p>
+    </a>
+    <a href="" class="project-tile image fit">
+        <img src="./Technical Documentation Page.png" alt="">
+        <p><span>&lt;</span>Technical Documentation Page<span>/&gt;</span></p>
+    </a>
+    <a href="" class="project-tile image fit">
+        <img src="./Penguin.png" alt="">
+        <p><span>&lt;</span>Penguin<span>/&gt;</span></p>
+    </a>
+</div>
+  </section>
+  <section id="contact">
+    <h1>Let's Connect</h1>
+    <p class="tea or coffee">Do you prefer hot tea or hot coffee?</p>
+    <div class="social-medias">
+        <a href="https://www.linkedin.com/in/joannabreeden/" 
+        target="_blank"
+        class="social-media">
+            <i class="ri-linkedin-fill ri-2x"></i>
+            <p>LinkedIn</p>
+        </a>
+        <a href="https://github.com/jrbreeden" 
+        target="_blank"
+        id="profile-link"
+        class="social-media">
+            <i class="ri-github-line ri-2x"></i>
+            <p>Github</p>
+        </a>
+        <a href="https://www.freecodecamp.org/codechick30" 
+        target="_blank"
+        class="social-media">
+            <i class="ri-fire-line ri-2x"></i>
+            <p>FreeCodeCamp</p>
+        </a>
+        <a href="" class="social-media">
+            <i class="ri-mail-line ri-2x"></i>
+            <p>Send an email</p>
+        </a>
+        <a href="" class="social-media">
+            <i class="ri-smartphone-line ri-2x"></i>
+            <p>Call Me</p>
+        </a>
+    </div>
+  </section>
+  <footer>Created by Joanna Breeden April 2024</footer>
+</body>
+</html>
